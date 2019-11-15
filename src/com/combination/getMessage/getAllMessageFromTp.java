@@ -19,13 +19,13 @@ import com.combination.checkMessage.AppendMessageHere;
 import com.getMessage5.postgres.GetStaticDataFromPostgres;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
-import com.in.encryption.LANEncryption;
+import com.in.encryption.Encryption;
 
 
 
 
 
-public class getAllMessageFromTp {
+public class getAllMessageFrom {
 
 
 	private static KafkaConsumer<String, byte[]> COSUMER;
